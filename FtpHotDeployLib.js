@@ -33,7 +33,7 @@ let logPrefix = 'FtpHotDeployLib Log:';
 function FtpHotDeployLib(options) {
     if (typeof options !== 'object') options = {};
     commonOpt = commonOpt || {};
-    let exclude = Object.assign({}, defOpt.exclude, commonOpt.exclude, options.exclude);
+    let exclude = Object.assign([], defOpt.exclude, commonOpt.exclude, options.exclude);
     this.opts = Object.assign({}, defOpt, commonOpt, options);
     this.opts.exclude = exclude;
     this.ftpClient = new Ftp();
