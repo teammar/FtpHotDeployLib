@@ -1,0 +1,43 @@
+{
+  "name": "fhdplib",
+  "version": "1.0.1",
+  "description": "Ftp hot deploy lib.ftp热部署静态网页库",
+  "main": "index.js",
+  "scripts": {
+    "test": "node unitTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teammar/FtpHotDeployLib.git"
+  },
+  "keywords": [
+    "ftp",
+    "deploy",
+    "hotdeploy",
+    "static web"
+  ],
+  "author": {
+    "name": "Teammar",
+    "email": "zfy@ffstu.cn"
+  },
+  "engines": {
+    "node": ">=10.18.0",
+    "npm": ">= 6.13.4"
+  },
+  "bugs": {
+    "url": "https://gitee.com/ffstu_admin/holidays-zh/issues"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "ftp": "^0.3.10"
+  },
+  "files": [
+    "FtpHotDeployLib.js",
+    "index.js",
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "unitTest.js",
+    "updateLib.sh"
+  ]
+}
